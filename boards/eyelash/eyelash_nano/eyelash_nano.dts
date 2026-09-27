@@ -134,3 +134,7 @@ zephyr_udc0: &usbd {
     pinctrl-1 = <&pwm0_sleep>;
     pinctrl-names = "default", "sleep";
 };
+
+&reg1 {
+    regulator-initial-mode = <NRF5X_REG_MODE_DCDC>;
+};
