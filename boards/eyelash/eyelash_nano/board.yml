@@ -1,0 +1,5 @@
+board:
+  name: eyelash_nano
+  vendor: eyelash
+  socs:
+    - name: nrf52840

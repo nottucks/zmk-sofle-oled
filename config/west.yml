@@ -4,8 +4,6 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: mctechnology17
       url-base: https://github.com/mctechnology17
-    - name: eyelash
-      url-base: https://github.com/a741725193
     - name: cormoran
       url-base: https://github.com/cormoran
   projects:
@@ -30,9 +28,6 @@ manifest:
       revision: main
     - name: zmk-nice-oled
       remote: mctechnology17
-      revision: main
-    - name: zmk-board-eyelash
-      remote: eyelash
       revision: main
 
     # dya studio stuff
