@@ -4,21 +4,19 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: mctechnology17
       url-base: https://github.com/mctechnology17
-    - name: eyelash
-      url-base: https://github.com/a741725193
     - name: cormoran
       url-base: https://github.com/cormoran
   projects:
     - name: zmk
       remote: cormoran
-      revision: v0.3-branch+dya
+      revision: main+dya
       import: app/west.yml
     - name: zmk-behavior-runtime-sensor-rotate
       remote: cormoran
       revision: main
     - name: zmk-module-ble-management
       remote: cormoran
-      revision: zmk-v0.3.0.0
+      revision: main
     - name: zmk-module-battery-history
       remote: cormoran
       revision: main
@@ -27,26 +25,20 @@ manifest:
       revision: main
     - name: zmk-module-runtime-input-processor
       remote: cormoran
-      revision: zmk-v0.3.0.0
-    - name: zmk-nice-oled
-      remote: mctechnology17
-      revision: main
-    - name: zmk-board-eyelash
-      remote: eyelash
       revision: main
 
-    # DYA Studio Diagnostics & Troubleshooting
-    # - name: zmk-feature-device-info
-    #   remote: cormoran
-    #   revision: main
-    # - name: zmk-feature-watchdog
-    #   remote: cormoran
-    #   revision: main
-    # - name: zmk-feature-kscan-diagnostics
-    #   remote: cormoran
-    #   revision: main
-    # - name: zmk-module-devtool
-    #   remote: cormoran
-    #   revision: main
+    # dya studio stuff
+    - name: zmk-feature-device-info
+      remote: cormoran
+      revision: main
+    - name: zmk-feature-watchdog
+      remote: cormoran
+      revision: main
+    - name: zmk-feature-kscan-diagnostics
+      remote: cormoran
+      revision: main
+    - name: zmk-module-devtool
+      remote: cormoran
+      revision: main
   self:
     path: config
