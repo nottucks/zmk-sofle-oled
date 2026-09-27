@@ -1,8 +1,5 @@
 # Sofle
 
-- [Chinese](README.md)
-- [English](README_EN.md)
-
 ## Update List
 
 - 2024/12/21
