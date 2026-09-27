@@ -26,9 +26,6 @@ manifest:
     - name: zmk-module-runtime-input-processor
       remote: cormoran
       revision: main
-    - name: zmk-nice-oled
-      remote: mctechnology17
-      revision: main
 
     # dya studio stuff
     - name: zmk-feature-device-info
